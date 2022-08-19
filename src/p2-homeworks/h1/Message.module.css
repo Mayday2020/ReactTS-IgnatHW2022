@@ -1,0 +1,36 @@
+.message {
+    display: flex;
+    max-width: 400px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message img {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    z-index: 6;
+}
+.messageContent {
+    background-color: green;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: -25px;
+    z-index: 5;
+}
+.name {
+    color: white;
+    font-weight: bold;
+}
+.messageText {
+    margin-right: 50px;
+}
+.time {
+    color: lightgrey;
+    position: absolute;
+    right: 15px;
+}
