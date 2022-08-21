@@ -1,7 +1,20 @@
-.someClass {
-
+.greeting {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 300px;
 }
-
+.greeting input {
+    padding: 10px;
+    margin-right: 10px;
+}
+.greeting button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+}
+.greeting span {
+    color: red;
+}
 .error {
     border: 1px solid red;
 }
