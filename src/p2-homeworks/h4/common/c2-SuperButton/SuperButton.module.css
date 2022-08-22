@@ -1,7 +1,24 @@
-.default {
 
+.default {
+    color: darkblue;
+    padding: 5px 10px;
+    border: 1px solid #5b5be0;
+    border-radius: 5px;
 }
 
 .red {
-    background: red;
+    background: #a72525;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.disabled {
+    opacity: .5;
+    background-color: darkgray;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
