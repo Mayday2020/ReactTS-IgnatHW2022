@@ -10,8 +10,9 @@ type SuperButtonPropsType = DefaultButtonPropsType & {
 
 const SuperButton: React.FC<SuperButtonPropsType> = (
     {
-        red, className,
-        ...restProps// все остальные пропсы попадут в объект restProps, там же будет children
+        red,
+        className,
+        ...restProps
     }
 ) => {
     const finalClassName = restProps.disabled ? s.disabled : `${red ? s.red : s.default} ${className}`
