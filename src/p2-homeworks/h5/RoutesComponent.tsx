@@ -16,7 +16,7 @@ function RoutesComponent() {
             <Routes>
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
                 {/*exact нужен чтоб указать полное совподение (что после '/' ничего не будет)*/}
-                <Route path={'/'}/>
+                <Route path={'/'} element={<PreJunior/>}/>
                 <Route path={PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={JUNIOR} element={<Junior/>}/>
                 <Route path={JUNIOR_plus} element={<JuniorPlus/>}/>
