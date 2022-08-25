@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactTS-IgnatHW2022.git/static/css/main.6afaf97a.css",
-    "main.js": "/ReactTS-IgnatHW2022.git/static/js/main.29297e0c.js",
-    "index.html": "/ReactTS-IgnatHW2022.git/index.html",
-    "main.6afaf97a.css.map": "/ReactTS-IgnatHW2022.git/static/css/main.6afaf97a.css.map",
-    "main.29297e0c.js.map": "/ReactTS-IgnatHW2022.git/static/js/main.29297e0c.js.map"
+    "main.css": "/ReactTS-IgnatHW2022/static/css/main.6afaf97a.css",
+    "main.js": "/ReactTS-IgnatHW2022/static/js/main.29297e0c.js",
+    "index.html": "/ReactTS-IgnatHW2022/index.html",
+    "main.6afaf97a.css.map": "/ReactTS-IgnatHW2022/static/css/main.6afaf97a.css.map",
+    "main.29297e0c.js.map": "/ReactTS-IgnatHW2022/static/js/main.29297e0c.js.map"
   },
   "entrypoints": [
     "static/css/main.6afaf97a.css",
