@@ -1,0 +1,32 @@
+.navPanel {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -240px;
+    padding: 10px;
+}
+
+.navPanel div {
+    margin-left: 10px;
+}
+
+.navPanel:hover {
+    transition: .7s;
+    left: 0;
+}
+
+.navPanelItems {
+    display: flex;
+}
+
+.navPanelItems a {
+    text-decoration: none;
+}
+
+.panelFlag {
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 0 6px;
+}
