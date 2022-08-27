@@ -1,6 +1,6 @@
 import React from 'react'
 import HW5 from "../../../p2-homeworks/h5/HW5";
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 
 function App() {
     return (
